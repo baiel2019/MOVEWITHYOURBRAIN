@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/BP_interactObject.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Input/Actions/IA_Interact.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Input/IMC_Default.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
+			]
+		}
+	]
+}
