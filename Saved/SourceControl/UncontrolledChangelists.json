@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Input/Actions/IA_Interact.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Input/IMC_Default.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/table.uasset",
 				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/MOVEWITHYOURBRAIN/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset",
 				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/MOVEWITHYOURBRAIN/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset",
 				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/MOVEWITHYOURBRAIN/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset",
@@ -247,11 +252,7 @@
 				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/MOVEWITHYOURBRAIN/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5Y/DKH98BPO70TCZVBB00EHO7.uasset",
 				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/MOVEWITHYOURBRAIN/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/4P/WGQ5YDNFYW95WJ35KY9J0P.uasset",
 				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/MOVEWITHYOURBRAIN/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset",
-				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/BP_interactObject.uasset",
-				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Input/Actions/IA_Interact.uasset",
-				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Input/IMC_Default.uasset",
-				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset"
+				"C:/Users/User/Documents/Unreal Projects/MoveWithYourBrain/Content/BP_interactObject.uasset"
 			]
 		}
 	]
