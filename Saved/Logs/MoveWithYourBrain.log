@@ -1290,3 +1290,511 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.15-08.35.21:997][620]LogFileHelpers: InternalPromptForCheckoutAndSave took 440 ms
 [2023.07.15-08.35.22:001][620]AssetCheck: New page: Asset Save: table
 [2023.07.15-08.35.22:001][620]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/log/table.table
+[2023.07.15-08.38.03:631][449]LogSlate: Window 'Content Browser' being destroyed
+[2023.07.15-08.38.03:636][449]LogSlate: Window 'Content Browser' being destroyed
+[2023.07.15-08.38.13:744][436]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/log/table.table
+[2023.07.15-08.38.13:751][436]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/log/table.table
+[2023.07.15-08.38.13:766][436]LogActorFactory: Actor Factory spawned StaticMesh /Game/log/table.table as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_1
+[2023.07.15-08.38.15:011][560]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/log/table.table
+[2023.07.15-08.38.15:011][560]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/log/table.table
+[2023.07.15-08.38.15:014][560]LogActorFactory: Actor Factory spawned StaticMesh /Game/log/table.table as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_14DDA9ED1DE2FB9501_1107243679
+[2023.07.15-08.38.17:525][796]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/log/table.table
+[2023.07.15-08.38.17:737][796]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.38.17:902][796]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2023.07.15-08.38.17:988][796]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.07.15-08.38.19:309][796]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.38.19:511][797]LogAutomationController: Ignoring very large delta of 2.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Total job queries 137, among them cache hits 2 (1.46%)
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Tracking 128 distinct input hashes that result in 93 distinct outputs (72.66%)
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: RAM used: 0.40 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.10%
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Shaders Compiled: 13
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Jobs assigned 16, completed 13 (81.25%)
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Average time worker was idle: 87.67 s
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Time job spent in pending queue: average 1.02 s, longest 2.96 s
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Job execution time: average 1.75 s, max 3.12 s
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Job life time (pending + execution): average 2.87 s, max 3.99
+[2023.07.15-08.38.19:600][798]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.04 s
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Average processing rate: 1.44 jobs/sec
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Total thread time: 14.23 s
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Total thread preprocess time: 0.96 s
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Percentage time preprocessing: 6.77%
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Effective parallelization: 1.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 1.46 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 1.39 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.96 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    3 times, average 0.47 sec, max 0.68 sec, min 0.36 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 39.01% of total time (compiled    4 times, average 1.39 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.82% of total time (compiled    3 times, average 1.46 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.28% of total time (compiled    3 times, average 0.96 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 9.89% of total time (compiled    3 times, average 0.47 sec, max 0.68 sec, min 0.36 sec)
+[2023.07.15-08.38.19:612][798]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.38.23:756][963]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.07.15-08.41.28:419][246]LogAssetEditorSubsystem: Opening Asset editor for Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2023.07.15-08.41.28:661][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.41.29:045][246]LogMaterial: Display: Missing cached shadermap for Preview:WorldGridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 06BFD2A4D078E0C9BD194D6A56F43FE87DF55BE3), compiling. Is special engine material.
+[2023.07.15-08.41.29:077][246]LogMaterial: Display: Missing cached shadermap for Preview:WorldGridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: A5F6D595DBD64C98A24E8C66FE9E49AB1201F9EF), compiling. Is special engine material.
+[2023.07.15-08.41.31:585][246]LogSlate: Window 'Warning: Editing Default Material' being destroyed
+[2023.07.15-08.41.31:649][246]MaterialEditorStats: Texture samplers: 0/16
+[2023.07.15-08.41.31:650][246]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.07.15-08.41.31:650][246]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.07.15-08.41.31:650][246]MaterialEditorStats: Shader Count: 0
+[2023.07.15-08.41.31:689][246]LogSlate: Took 0.024683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.07.15-08.41.31:694][246]LogViewport: Scene viewport resized to 504x449, mode Windowed.
+[2023.07.15-08.41.32:383][247]LogAutomationController: Ignoring very large delta of 3.97 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: Total job queries 169, among them cache hits 2 (1.18%)
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: Tracking 164 distinct input hashes that result in 111 distinct outputs (67.68%)
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: RAM used: 0.47 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.12%
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.15-08.41.33:184][282]LogShaderCompilers: Display: Shaders Compiled: 33
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Jobs assigned 36, completed 33 (91.67%)
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Average time worker was idle: 51.18 s
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Time job spent in pending queue: average 0.90 s, longest 2.96 s
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Job execution time: average 1.65 s, max 3.12 s
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Job life time (pending + execution): average 2.59 s, max 3.99
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.33 s
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Average processing rate: 1.62 jobs/sec
+[2023.07.15-08.41.33:185][282]LogShaderCompilers: Display: Total thread time: 40.27 s
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display: Total thread preprocess time: 2.43 s
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display: Percentage time preprocessing: 6.04%
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display: Effective parallelization: 1.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 1.63 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    8 times, average 1.62 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 1.11 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    8 times, average 0.53 sec, max 0.75 sec, min 0.36 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.33% of total time (compiled    8 times, average 1.63 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 32.27% of total time (compiled    8 times, average 1.62 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                                 FLumenCardVS - 24.89% of total time (compiled    9 times, average 1.11 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.52% of total time (compiled    8 times, average 0.53 sec, max 0.75 sec, min 0.36 sec)
+[2023.07.15-08.41.33:186][282]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.41.33:961][323]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.07.15-08.41.33:961][323]MaterialEditorStats: Texture samplers: 0/16
+[2023.07.15-08.41.33:962][323]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.07.15-08.41.33:962][323]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.07.15-08.41.33:962][323]MaterialEditorStats: Shader Count: 2
+[2023.07.15-08.41.34:015][325]MaterialEditorStats: Base pass shader: 201 instructions
+[2023.07.15-08.41.34:015][325]MaterialEditorStats: Base pass vertex shader: 254 instructions
+[2023.07.15-08.41.34:015][325]MaterialEditorStats: Texture samplers: 4/16
+[2023.07.15-08.41.34:015][325]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.07.15-08.41.34:015][325]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.07.15-08.41.34:015][325]MaterialEditorStats: Shader Count: 3
+[2023.07.15-08.42.57:557][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.07.15-08.42.57:571][777]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.072
+[2023.07.15-08.42.57:580][777]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/log/table] ([1] browsable assets)...
+[2023.07.15-08.42.57:605][777]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/log/table.table]
+[2023.07.15-08.42.57:605][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/log/table]
+[2023.07.15-08.42.57:605][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/log/table" FILE="../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Autosaves/Game/log/table_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.07.15-08.42.57:618][777]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/log/table_Auto1
+[2023.07.15-08.42.57:618][777]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/table_Auto144073A1B421ADACBA28EFB830010FF9D.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Autosaves/Game/log/table_Auto1.uasset'
+[2023.07.15-08.42.57:624][777]LogFileHelpers: Auto-saving content packages took 0.042
+[2023.07.15-08.45.56:989][504]LogViewport: Scene viewport resized to 1874x925, mode Windowed.
+[2023.07.15-08.45.57:083][506]LogViewport: Scene viewport resized to 577x210, mode Windowed.
+[2023.07.15-08.45.57:632][535]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.45.58:056][552]LogViewport: Scene viewport resized to 1874x925, mode Windowed.
+[2023.07.15-08.45.58:149][554]LogViewport: Scene viewport resized to 577x210, mode Windowed.
+[2023.07.15-08.45.58:178][555]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.45.58:539][570]LogViewport: Scene viewport resized to 1874x925, mode Windowed.
+[2023.07.15-08.45.58:656][572]LogViewport: Scene viewport resized to 589x217, mode Windowed.
+[2023.07.15-08.45.58:697][573]LogViewport: Scene viewport resized to 577x210, mode Windowed.
+[2023.07.15-08.45.59:251][603]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.46.10:558][203]LogViewport: Scene viewport resized to 503x460, mode Windowed.
+[2023.07.15-08.46.10:674][205]LogViewport: Scene viewport resized to 169x121, mode Windowed.
+[2023.07.15-08.46.10:719][206]LogViewport: Scene viewport resized to 151x103, mode Windowed.
+[2023.07.15-08.46.11:403][242]LogViewport: Scene viewport resized to 504x449, mode Windowed.
+[2023.07.15-08.46.11:541][244]LogViewport: Scene viewport resized to 503x460, mode Windowed.
+[2023.07.15-08.46.11:658][246]LogViewport: Scene viewport resized to 172x124, mode Windowed.
+[2023.07.15-08.46.11:694][247]LogViewport: Scene viewport resized to 151x103, mode Windowed.
+[2023.07.15-08.46.11:720][248]LogViewport: Scene viewport resized to 504x449, mode Windowed.
+[2023.07.15-08.46.13:125][329]LogViewport: Scene viewport resized to 1874x925, mode Windowed.
+[2023.07.15-08.46.13:241][331]LogViewport: Scene viewport resized to 637x243, mode Windowed.
+[2023.07.15-08.46.13:288][332]LogViewport: Scene viewport resized to 577x210, mode Windowed.
+[2023.07.15-08.46.14:651][407]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.46.25:720][802]LogSlate: Window 'WorldGridMaterial' being destroyed
+[2023.07.15-08.46.25:724][802]LogSlate: Window 'WorldGridMaterial' being destroyed
+[2023.07.15-08.46.25:792][802]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.46.25:792][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.46.25:911][802]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.46.25:911][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.46.40:007][526]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\User\Desktop\vadim\tableRGB.fbx)
+[2023.07.15-08.46.40:015][526]LogFbx: Loading FBX Scene from C:\Users\User\Desktop\vadim\tableRGB.fbx
+[2023.07.15-08.46.40:063][526]LogFbx: FBX Scene Loaded Succesfully
+[2023.07.15-08.46.42:770][526]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.07.15-08.46.42:913][526]LogFbx: Display: Triangulating static mesh Cube
+[2023.07.15-08.46.43:012][526]LogStaticMesh: Display: Building static mesh tableRGB...
+[2023.07.15-08.46.43:025][526]LogStaticMesh: Built static mesh [0.01s] /Game/log/tableRGB.tableRGB
+[2023.07.15-08.46.43:027][526]LogStaticMesh: Warning: tableRGB has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.07.15-08.46.43:027][526]LogStaticMesh: Warning: tableRGB has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.07.15-08.46.43:043][526]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.07.15-08.46.43:043][526]FBXImport: Warning: tableRGB has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.07.15-08.46.43:043][526]FBXImport: Warning: tableRGB has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.07.15-08.46.43:301][527]LogAutomationController: Ignoring very large delta of 3.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Total job queries 193, among them cache hits 12 (6.22%)
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Tracking 181 distinct input hashes that result in 120 distinct outputs (66.30%)
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: RAM used: 0.50 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.12%
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Shaders Compiled: 46
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Jobs assigned 46, completed 46 (100.00%)
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Average time worker was idle: 39.28 s
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Time job spent in pending queue: average 1.17 s, longest 4.91 s
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Job execution time: average 1.67 s, max 3.12 s
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Job life time (pending + execution): average 2.84 s, max 6.03
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.47 s
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Jobs were issued in 46 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Average processing rate: 1.67 jobs/sec
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Total thread time: 61.08 s
+[2023.07.15-08.46.43:417][529]LogShaderCompilers: Display: Total thread preprocess time: 3.67 s
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display: Percentage time preprocessing: 6.00%
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display: Effective parallelization: 2.22 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 1.70 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 1.58 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 1.11 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    9 times, average 0.56 sec, max 0.84 sec, min 0.36 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 39.01% of total time (compiled   14 times, average 1.70 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.27% of total time (compiled   14 times, average 1.58 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                                 FLumenCardVS - 16.41% of total time (compiled    9 times, average 1.11 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.31% of total time (compiled    9 times, average 0.56 sec, max 0.84 sec, min 0.36 sec)
+[2023.07.15-08.46.43:418][529]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.46.47:642][838]LogSlate: Window 'Content Browser' being destroyed
+[2023.07.15-08.46.47:657][838]LogSlate: Window 'Content Browser' being destroyed
+[2023.07.15-08.46.48:914][960]LogSlate: Window 'Message Log' being destroyed
+[2023.07.15-08.46.48:929][960]LogSlate: Window 'Message Log' being destroyed
+[2023.07.15-08.46.53:797][431]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/log/tableRGB.tableRGB
+[2023.07.15-08.46.53:886][431]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.46.54:235][431]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.48.19:086][122]LogViewport: Scene viewport resized to 1874x925, mode Windowed.
+[2023.07.15-08.48.19:169][124]LogViewport: Scene viewport resized to 667x260, mode Windowed.
+[2023.07.15-08.48.19:205][125]LogViewport: Scene viewport resized to 577x210, mode Windowed.
+[2023.07.15-08.48.19:612][159]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.48.19:888][177]LogSlate: Window 'tableRGB' being destroyed
+[2023.07.15-08.48.57:452][603]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2023.07.15-08.48.57:477][603]LogInterchangeEngine: [Pending] Importing
+[2023.07.15-08.48.57:502][604]LogAutomationController: Ignoring very large delta of 32.94 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.48.57:502][604]LogTemp: Warning: Unknown keyword: Ns
+[2023.07.15-08.48.57:503][604]LogTemp: Warning: Unknown keyword: Ke
+[2023.07.15-08.48.57:503][604]LogTemp: Warning: Unknown keyword: Ns
+[2023.07.15-08.48.57:503][604]LogTemp: Warning: Unknown keyword: Ke
+[2023.07.15-08.48.57:503][604]LogTemp: Warning: Unknown keyword: o
+[2023.07.15-08.48.57:505][604]LogTemp: Warning: Unknown keyword: s
+[2023.07.15-08.48.57:520][604]LogInterchangeEngine: [Pending] Importing
+[2023.07.15-08.48.57:816][608]LogStaticMesh: Display: Building static mesh Cube_Cube_006_Material_002...
+[2023.07.15-08.48.57:817][608]LogStaticMesh: Display: Building static mesh Cube_Cube_006_Material_003...
+[2023.07.15-08.48.57:863][608]LogStaticMesh: Built static mesh [0.05s] /Game/log/Cube_Cube_006_Material_002.Cube_Cube_006_Material_002
+[2023.07.15-08.48.57:865][609]LogStaticMesh: Built static mesh [0.05s] /Game/log/Cube_Cube_006_Material_003.Cube_Cube_006_Material_003
+[2023.07.15-08.48.57:866][609]LogStaticMesh: Warning: Cube_Cube_006_Material_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.07.15-08.48.57:868][609]LogStaticMesh: Warning: Cube_Cube_006_Material_003 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.07.15-08.48.57:915][609]LogInterchangeEngine: [Success] Import Done
+[2023.07.15-08.48.57:975][610]LogInterchangeEngine: [Success] Import Done
+[2023.07.15-08.49.06:292][279]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/log/Cube_Cube_006_Material_002.Cube_Cube_006_Material_002
+[2023.07.15-08.49.06:298][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.49.06:657][279]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.50.17:945][292]LogAutomationController: Ignoring very large delta of 52.81 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.50.26:152][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.15-08.50.26:211][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/log/tableRGB" FILE="../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/tableRGB.uasset" SILENT=true
+[2023.07.15-08.50.26:217][  0]LogSavePackage: Moving output files for package: /Game/log/tableRGB
+[2023.07.15-08.50.26:217][  0]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/tableRGB630998994C938F42AF24A6944D02CB62.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/tableRGB.uasset'
+[2023.07.15-08.50.26:230][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 518 ms)
+[2023.07.15-08.50.26:236][  0]AssetCheck: New page: Asset Save: tableRGB
+[2023.07.15-08.50.26:236][  0]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/log/tableRGB.tableRGB
+[2023.07.15-08.50.29:884][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.07.15-08.50.31:547][302]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.50.31:633][302]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.50.31:633][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.50.31:650][302]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/log/tableRGB.tableRGB
+	Asset Type: StaticMesh
+[2023.07.15-08.50.33:012][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.07.15-08.50.33:034][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.07.15-08.50.33:046][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.07.15-08.50.33:061][303]LogAutomationController: Ignoring very large delta of 3.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.50.42:354][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.07.15-08.50.43:653][ 79]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.50.43:701][ 79]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/log/table.table
+	Asset Type: StaticMesh
+[2023.07.15-08.50.43:918][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.07.15-08.50.43:930][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.07.15-08.50.43:939][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.07.15-08.50.45:709][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.07.15-08.50.47:182][233]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.50.47:198][233]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/log/Material_003.Material_003
+	Asset Type: Material
+[2023.07.15-08.50.47:365][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.07.15-08.50.47:379][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.07.15-08.50.47:391][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.07.15-08.50.50:144][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.07.15-08.50.51:310][474]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.50.51:417][474]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.50.51:417][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.50.51:420][474]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/log/Material_002.Material_002
+	Asset Type: Material
+[2023.07.15-08.50.51:586][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.07.15-08.50.51:600][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.07.15-08.50.51:610][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.07.15-08.50.55:375][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.07.15-08.50.56:415][827]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.50.56:437][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.07.15-08.50.56:448][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.07.15-08.50.56:459][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.07.15-08.50.57:649][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.07.15-08.50.58:479][929]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.50.58:501][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.07.15-08.50.58:512][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.07.15-08.50.58:527][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.07.15-08.52.01:033][665]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2023.07.15-08.52.01:046][665]LogInterchangeEngine: [Pending] Importing
+[2023.07.15-08.52.01:047][665]LogTemp: Warning: Unknown keyword: Ns
+[2023.07.15-08.52.01:047][665]LogTemp: Warning: Unknown keyword: Ke
+[2023.07.15-08.52.01:047][665]LogTemp: Warning: Unknown keyword: Ns
+[2023.07.15-08.52.01:047][665]LogTemp: Warning: Unknown keyword: Ke
+[2023.07.15-08.52.01:047][665]LogTemp: Warning: Unknown keyword: o
+[2023.07.15-08.52.01:050][665]LogTemp: Warning: Unknown keyword: s
+[2023.07.15-08.52.01:056][666]LogAutomationController: Ignoring very large delta of 20.58 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.52.01:076][666]LogInterchangeEngine: [Pending] Importing
+[2023.07.15-08.52.01:229][669]LogStaticMesh: Display: Building static mesh Cube_Cube_006_Material_002...
+[2023.07.15-08.52.01:232][669]LogStaticMesh: Display: Building static mesh Cube_Cube_006_Material_003...
+[2023.07.15-08.52.01:239][669]LogStaticMesh: Built static mesh [0.01s] /Game/log/Cube_Cube_006_Material_002.Cube_Cube_006_Material_002
+[2023.07.15-08.52.01:241][669]LogStaticMesh: Warning: Cube_Cube_006_Material_002 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.07.15-08.52.01:241][669]LogStaticMesh: Warning: Cube_Cube_006_Material_002 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.07.15-08.52.01:246][669]LogStaticMesh: Built static mesh [0.01s] /Game/log/Cube_Cube_006_Material_003.Cube_Cube_006_Material_003
+[2023.07.15-08.52.01:275][670]LogInterchangeEngine: [Success] Import Done
+[2023.07.15-08.52.01:294][670]LogInterchangeEngine: [Success] Import Done
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: Total job queries 209, among them cache hits 20 (9.57%)
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: Tracking 189 distinct input hashes that result in 122 distinct outputs (64.55%)
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: RAM used: 0.52 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.13%
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: Shaders Compiled: 54
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: Jobs assigned 54, completed 54 (100.00%)
+[2023.07.15-08.52.01:485][672]LogShaderCompilers: Display: Average time worker was idle: 58.90 s
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Time job spent in pending queue: average 1.06 s, longest 4.91 s
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Job execution time: average 1.69 s, max 3.12 s
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Job life time (pending + execution): average 2.76 s, max 6.03
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 32.54 s
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Jobs were issued in 54 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Average processing rate: 1.66 jobs/sec
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Total thread time: 73.10 s
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Total thread preprocess time: 4.30 s
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Percentage time preprocessing: 5.88%
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Effective parallelization: 2.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   16 times, average 1.74 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   16 times, average 1.64 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   11 times, average 1.15 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled   11 times, average 0.59 sec, max 0.84 sec, min 0.36 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 38.00% of total time (compiled   16 times, average 1.74 sec, max 2.31 sec, min 1.05 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 35.86% of total time (compiled   16 times, average 1.64 sec, max 2.33 sec, min 0.91 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.33% of total time (compiled   11 times, average 1.15 sec, max 1.71 sec, min 0.57 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.81% of total time (compiled   11 times, average 0.59 sec, max 0.84 sec, min 0.36 sec)
+[2023.07.15-08.52.01:486][672]LogShaderCompilers: Display: ================================================
+[2023.07.15-08.52.05:325][945]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/log/Material_002.Material_002
+[2023.07.15-08.52.05:330][945]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.52.05:572][945]MaterialEditorStats: Texture samplers: 0/16
+[2023.07.15-08.52.05:573][945]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.07.15-08.52.05:573][945]MaterialEditorStats: Shader Count: 0
+[2023.07.15-08.52.05:580][945]LogViewport: Scene viewport resized to 504x449, mode Windowed.
+[2023.07.15-08.52.05:698][947]MaterialEditorStats: Base pass shader: 173 instructions
+[2023.07.15-08.52.05:698][947]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.07.15-08.52.05:698][947]MaterialEditorStats: Texture samplers: 2/16
+[2023.07.15-08.52.05:698][947]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.07.15-08.52.05:698][947]MaterialEditorStats: Shader Count: 4
+[2023.07.15-08.52.08:708][132]LogSlate: Window 'Material_002' being destroyed
+[2023.07.15-08.52.08:715][132]LogSlate: Window 'Material_002' being destroyed
+[2023.07.15-08.52.08:724][132]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.52.08:724][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.52.14:338][684]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/log/Cube_Cube_006_Material_002.Cube_Cube_006_Material_002
+[2023.07.15-08.52.14:433][684]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.52.14:784][684]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.52.16:592][786]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/log/Material_002.Material_002
+[2023.07.15-08.52.16:598][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.52.16:696][786]MaterialEditorStats: Texture samplers: 0/16
+[2023.07.15-08.52.16:696][786]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.07.15-08.52.16:696][786]MaterialEditorStats: Shader Count: 0
+[2023.07.15-08.52.16:704][786]LogViewport: Scene viewport resized to 504x449, mode Windowed.
+[2023.07.15-08.52.18:111][819]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.07.15-08.52.18:112][819]MaterialEditorStats: Texture samplers: 0/16
+[2023.07.15-08.52.18:112][819]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.07.15-08.52.18:112][819]MaterialEditorStats: Shader Count: 2
+[2023.07.15-08.52.18:382][836]MaterialEditorStats: Base pass shader: 173 instructions
+[2023.07.15-08.52.18:382][836]MaterialEditorStats: Base pass vertex shader: 250 instructions
+[2023.07.15-08.52.18:382][836]MaterialEditorStats: Texture samplers: 2/16
+[2023.07.15-08.52.18:382][836]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.07.15-08.52.18:382][836]MaterialEditorStats: Shader Count: 3
+[2023.07.15-08.52.27:978][329]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.07.15-08.52.27:978][329]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.07.15-08.52.53:304][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.07.15-08.52.53:319][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.15-08.52.53:436][711]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/F7/9I23L5H5VJEUSDQ2TF9C3M
+[2023.07.15-08.52.53:437][711]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/9I23L5H5VJEUSDQ2TF9C3M1BF67CDF40D192A64D146AB05B883CA0.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/F7/9I23L5H5VJEUSDQ2TF9C3M.uasset'
+[2023.07.15-08.52.55:493][711]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.07.15-08.53.10:916][711]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.038752s
+[2023.07.15-08.53.12:051][711]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005030s (1.169298s overbudget)
+[2023.07.15-08.53.12:066][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/log/Material_002" FILE="../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Material_002.uasset" SILENT=true
+[2023.07.15-08.53.12:086][711]LogSavePackage: Moving output files for package: /Game/log/Material_002
+[2023.07.15-08.53.12:086][711]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Material_002F5B316C64E81D1928D7F8D9A688761F9.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Material_002.uasset'
+[2023.07.15-08.53.14:109][711]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.07.15-08.53.16:754][711]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.004026s (2.644914s overbudget)
+[2023.07.15-08.53.16:768][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/log/Material_003" FILE="../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Material_003.uasset" SILENT=true
+[2023.07.15-08.53.16:774][711]LogSavePackage: Moving output files for package: /Game/log/Material_003
+[2023.07.15-08.53.16:775][711]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Material_0032A71ED2244232D516B55BABF5AE84A85.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Material_003.uasset'
+[2023.07.15-08.53.16:790][711]LogSavePackage: Moving output files for package: /Game/log/Cube_Cube_006_Material_002
+[2023.07.15-08.53.16:791][711]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Cube_Cube_006_Material_002F27AFD5F4ECA0E4D4925E3B50239F122.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Cube_Cube_006_Material_002.uasset'
+[2023.07.15-08.53.16:818][711]LogSavePackage: Moving output files for package: /Game/log/Cube_Cube_006_Material_003
+[2023.07.15-08.53.16:818][711]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Cube_Cube_006_Material_003598FDF624282C16F81B6EE819D590C1A.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Cube_Cube_006_Material_003.uasset'
+[2023.07.15-08.53.16:852][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 23.5 sec (total: 24.0 sec)
+[2023.07.15-08.53.16:860][711]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.15-08.53.16:860][711]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_14DDA9ED1DE2FB9501_1107243679
+[2023.07.15-08.53.16:860][711]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/log/Cube_Cube_006_Material_003.Cube_Cube_006_Material_003
+[2023.07.15-08.53.16:860][711]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/log/Cube_Cube_006_Material_002.Cube_Cube_006_Material_002
+[2023.07.15-08.53.16:860][711]LogContentValidation: Display: Validating /Script/Engine.Material /Game/log/Material_003.Material_003
+[2023.07.15-08.53.16:860][711]LogContentValidation: Display: Validating /Script/Engine.Material /Game/log/Material_002.Material_002
+[2023.07.15-08.53.16:870][712]LogAutomationController: Ignoring very large delta of 23.63 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.53.20:719][911]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.53.20:719][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.53.21:305][950]LogSlate: Window 'Material_002' being destroyed
+[2023.07.15-08.53.21:332][950]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.53.21:332][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.53.27:074][453]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/log/Cube_Cube_006_Material_003.Cube_Cube_006_Material_003
+[2023.07.15-08.53.27:156][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.53.27:512][453]LogViewport: Scene viewport resized to 1877x902, mode Windowed.
+[2023.07.15-08.53.40:372][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.07.15-08.53.40:377][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.15-08.53.40:438][131]LogSavePackage: Moving output files for package: /Game/log/Cube_Cube_006_Material_003
+[2023.07.15-08.53.40:439][131]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/Cube_Cube_006_Material_003C5465F7947CF06C09E5CE887AA799F43.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/Cube_Cube_006_Material_003.uasset'
+[2023.07.15-08.53.40:448][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 24.1 sec)
+[2023.07.15-08.53.40:452][131]AssetCheck: New page: Asset Save: Cube_Cube_006_Material_003
+[2023.07.15-08.53.40:452][131]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/log/Cube_Cube_006_Material_003.Cube_Cube_006_Material_003
+[2023.07.15-08.53.41:826][210]LogSlate: Window 'Cube_Cube_006_Material_003' being destroyed
+[2023.07.15-08.53.41:936][210]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.53.41:936][210]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.53.45:504][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.07.15-08.53.47:273][546]LogSlate: Window 'Delete Assets' being destroyed
+[2023.07.15-08.53.47:297][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.07.15-08.53.47:311][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.07.15-08.53.47:322][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.07.15-08.53.52:345][964]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.15-08.53.52:345][964]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.15-08.53.52:345][964]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.07.15-08.53.54:098][964]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.07.15-08.53.54:134][964]LogContentBrowser: Deferred new asset file creation: NewBlueprint1
+[2023.07.15-08.53.54:141][964]LogContentBrowser: Creating deferred item: NewBlueprint1
+[2023.07.15-08.53.54:176][965]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint1).
+[2023.07.15-08.53.54:781][ 19]LogContentBrowser: Attempting asset rename: NewBlueprint1 -> NewBlueprint1
+[2023.07.15-08.53.54:869][ 19]LogContentBrowser: End creating deferred item NewBlueprint1
+[2023.07.15-08.53.55:298][ 61]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/log/NewBlueprint1.NewBlueprint1
+[2023.07.15-08.53.55:316][ 61]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.53.57:300][ 61]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.07.15-08.53.59:999][ 61]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049971s
+[2023.07.15-08.54.00:635][ 61]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/PhAT_FloorBox) ...
+[2023.07.15-08.54.01:119][ 61]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000567s (1.166627s overbudget)
+[2023.07.15-08.54.01:165][ 61]LogSlate: Took 0.012606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.07.15-08.54.01:366][ 61]LogViewport: Scene viewport resized to 1525x693, mode Windowed.
+[2023.07.15-08.54.01:493][ 62]LogAutomationController: Ignoring very large delta of 6.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.15-08.54.26:270][565]BlueprintLog: New page: Compile NewBlueprint1
+[2023.07.15-08.54.26:348][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.07.15-08.54.52:317][ 74]BlueprintLog: New page: Compile NewBlueprint1
+[2023.07.15-08.54.52:378][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.07.15-08.54.53:006][105]LogViewport: Scene viewport resized to 1523x711, mode Windowed.
+[2023.07.15-08.54.53:106][107]LogViewport: Scene viewport resized to 527x172, mode Windowed.
+[2023.07.15-08.54.53:138][108]LogViewport: Scene viewport resized to 467x139, mode Windowed.
+[2023.07.15-08.54.53:329][122]LogViewport: Scene viewport resized to 1525x693, mode Windowed.
+[2023.07.15-08.54.53:714][155]LogSlate: Window 'NewBlueprint1' being destroyed
+[2023.07.15-08.55.00:069][789]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/log/NewBlueprint1.NewBlueprint1_C
+[2023.07.15-08.55.00:069][789]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/log/NewBlueprint1.NewBlueprint1_C
+[2023.07.15-08.55.00:071][789]LogActorFactory: Actor Factory spawned Blueprint /Game/log/NewBlueprint1.NewBlueprint1 as actor: NewBlueprint1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NewBlueprint1_C_0
+[2023.07.15-08.55.00:074][789]LogActorFactory: Actor Factory spawned Blueprint /Game/log/NewBlueprint1.NewBlueprint1 as actor: NewBlueprint1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NewBlueprint1_C_0
+[2023.07.15-08.55.01:190][880]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/log/NewBlueprint1.NewBlueprint1_C
+[2023.07.15-08.55.01:190][880]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/log/NewBlueprint1.NewBlueprint1_C
+[2023.07.15-08.55.01:216][880]LogActorFactory: Actor Factory spawned Blueprint /Game/log/NewBlueprint1.NewBlueprint1 as actor: NewBlueprint1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NewBlueprint1_C_UAID_14DDA9ED1DE2FB9501_2113421680
+[2023.07.15-08.55.01:219][880]LogActorFactory: Actor Factory spawned Blueprint /Game/log/NewBlueprint1.NewBlueprint1 as actor: NewBlueprint1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NewBlueprint1_C_UAID_14DDA9ED1DE2FB9501_2113421680
+[2023.07.15-08.55.02:421][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.15-08.55.02:431][  2]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.07.15-08.55.02:433][  2]LogWorldPartition: Display: GenerateStreaming started...
+[2023.07.15-08.55.02:433][  2]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.07.15-08.55.02:433][  2]LogWorldPartition: Display: GetPartitionedActors took 12 us (total: 30 ms)
+[2023.07.15-08.55.02:434][  2]LogWorldPartition: Display: GenerateStreaming took 403 us (total: 51 ms)
+[2023.07.15-08.55.02:458][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.15-08.55.02:458][  2]PIE: New page: PIE session: FirstPersonMap (15 июл. 2023 г., 20:55:02)
+[2023.07.15-08.55.02:487][  2]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.07.15-08.55.02:508][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020480s)
+[2023.07.15-08.55.02:508][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.020543s)
+[2023.07.15-08.55.02:508][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.15-08.55.02:509][  2]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.07.15-08.55.02:510][  2]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.07.15-08.55.02:511][  2]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.07.15-08.55.02:511][  2]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.07.15-08.55.02:518][  2]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.07.15-08.55.02:518][  2]LogWorldPartition: Display: WorldPartition initialize took 7 ms (total: 1.72 sec)
+[2023.07.15-08.55.02:518][  2]LogPlayLevel: PIE: World Init took: (0.010224s)
+[2023.07.15-08.55.02:574][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.07.15-08.55.02:575][  2]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.15-08.55.02:575][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.07.15-08.55.02:575][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.15-08.55.02:576][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.15-08.55.02:576][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.15-08.55.02:576][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.15-08.55.02:579][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.15-08.55.02:682][  2]LogAudioMixer: Display: Using Audio Hardware Device Realtek Digital Output (Realtek High Definition Audio)
+[2023.07.15-08.55.02:683][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.15-08.55.02:683][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.15-08.55.02:683][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.15-08.55.02:684][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.07.15-08.55.02:684][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.07.15-08.55.02:686][  2]LogInit: FAudioDevice initialized.
+[2023.07.15-08.55.02:686][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.07.15-08.55.02:686][  2]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2023.07.15-08.55.02:686][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.07.15-08.55.02:690][  2]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.07.15-08.55.02:696][  2]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.07.15-14.55.02
+[2023.07.15-08.55.02:696][  2]LogWorld: Bringing up level for play took: 0.005612
+[2023.07.15-08.55.02:699][  2]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.07.15-08.55.02:701][  2]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=438.299 Y=5102.198 Z=98.467
+[2023.07.15-08.55.02:701][  2]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.07.15-08.55.02:701][  2]PIE: Server logged in
+[2023.07.15-08.55.02:702][  2]PIE: Play in editor total start time 0,271 seconds.
+[2023.07.15-08.55.15:287][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.15-08.55.15:287][502]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.07.15-08.55.15:287][502]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.15-08.55.15:288][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.55.15:288][502]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.07.15-08.55.15:293][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.15-08.55.15:322][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.15-08.55.15:362][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.15-08.55.15:362][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.07.15-08.55.15:364][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.07.15-08.55.15:375][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.07.15-08.55.15:416][503]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.07.15-08.55.17:931][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.07.15-08.55.17:935][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.15-08.55.18:004][743]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/ER/4JDJLCFN1Q5KO3E1JR8VOK
+[2023.07.15-08.55.18:004][743]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/4JDJLCFN1Q5KO3E1JR8VOK41E5C80A47C7F74E0AEA42BED0192CFE.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/ER/4JDJLCFN1Q5KO3E1JR8VOK.uasset'
+[2023.07.15-08.55.18:011][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/log/NewBlueprint1" FILE="../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/NewBlueprint1.uasset" SILENT=true
+[2023.07.15-08.55.18:058][743]LogSavePackage: Moving output files for package: /Game/log/NewBlueprint1
+[2023.07.15-08.55.18:058][743]LogSavePackage: Moving '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Saved/NewBlueprint1902E5FE046279F552E4C7E9D5E8B6C15.tmp' to '../../../../../../Users/User/Documents/Unreal Projects/MOVEWITHYOURBRAIN/Content/log/NewBlueprint1.uasset'
+[2023.07.15-08.55.18:068][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 24.2 sec)
+[2023.07.15-08.55.18:078][743]AssetCheck: New page: Asset Save: multiple assets
+[2023.07.15-08.55.18:078][743]LogContentValidation: Display: Validating /Game/log/NewBlueprint1.NewBlueprint1_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NewBlueprint1_C_UAID_14DDA9ED1DE2FB9501_2113421680
+[2023.07.15-08.55.18:078][743]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/log/NewBlueprint1.NewBlueprint1
